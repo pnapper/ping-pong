@@ -1,7 +1,7 @@
 var countUp = [""];
 var pingPong = function(number) {
   for (var i = 1; i <= number; i ++) {
-    alert(i);
+    alert(countUp);
     countUp += number[i];
     console.log(countUp);
     if (i % 3 === 0) {
@@ -15,7 +15,7 @@ var pingPong = function(number) {
     }
   }
     console.log(pingPong);
-    alert(a);
+    alert(2);
 };
 
 $(document).ready(function() {
@@ -23,7 +23,7 @@ $(document).ready(function() {
     event.preventDefault();
     var number = parseInt($("input#number").val());
     var output = pingPong(number);
-    alert(b);
+    alert(3);
     $("#countUp").append(countUp);
       $("#output").text(output);
   });
