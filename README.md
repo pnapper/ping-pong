@@ -17,17 +17,17 @@
  ## Specifications
 
  * It can count up to the provided number.
-  **_Example Input: 2_**
-  **_Example Output: [1,2]_**
+  * **_Example Input: 2_**
+  * **_Example Output: [1,2]_**
  * Numbers divisible by 3 will return "ping".
-  **_Example Input: 3_**
-  **_Example Output: [1,2,ping]_**
+  * **_Example Input: 3_**
+  * **_Example Output: [1,2,ping]_**
  * Numbers divisible by 5 will return "pong".
-  **_Example Input: 5_**
-  **_Example Output: [1,2,ping,4,pong]_**
+  * **_Example Input: 5_**
+  * **_Example Output: [1,2,ping,4,pong]_**
  * Numbers divisible by 15 will return "pingpong".
-  **_Example Input: 15_**
-  **_Example Output: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong]_**
+  * **_Example Input: 15_**
+  * **_Example Output: [1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong]_**
 
  ## GitHub Pages address: https://pnapper.github.io/ping-pong/
 
